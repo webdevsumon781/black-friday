@@ -1,0 +1,1073 @@
+/* Font Family */
+@font-face {
+  font-family: FuturaFuturisC;
+  src: url(/assets/fonts/FuturaFuturisC.otf);
+}
+
+@font-face {
+  font-family: Arial;
+  src: url(/assets/fonts/arial.ttf);
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(/assets/fonts/Helvetica.ttf);
+}
+
+:root {
+  /* Colors */
+  --text-pink: #c8637d;
+  --text-black: #393e44;
+  --text-dark: #2c2f33;
+  --text-blue: #429dc3;
+  --blue-90: #acd6f4;
+
+  /* Bg Colors */
+  --blue-50: #f0f9ff;
+  --pink-50: #fcf1f6;
+
+  /* Font Family */
+  --font-futura: FuturaFuturisC;
+  --font-arial: Arial;
+  --font-helvetica: Helvetica;
+
+  /* Font Size */
+  --heading-1: 50px;
+  --heading-2: 38px;
+  --heading-3: 32px;
+  --heading-4: 28px;
+  --heading-5: 26px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-arial);
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  margin: 0 auto;
+  max-width: 767px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  color: var(--text-dark);
+}
+
+/* h1 {
+  font-size: var(--heading-1);
+}
+
+h2 {
+  font-size: var(--heading-2);
+}
+
+h3 {
+  font-size: var(--heading-3);
+}
+
+h4 {
+  font-size: var(--heading-4);
+}
+
+h5 {
+  font-size: var(--heading-5);
+}
+*/
+img {
+  display: block;
+  width: 100%;
+} 
+
+.text {
+  color: var(--text-black);
+  text-align: center;
+}
+
+.text-blue {
+  color: var(--text-blue);
+  font-weight: 700;
+}
+
+.text-pink {
+  color: var(--text-pink);
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* -----------------Navbar Start----------------- */
+
+.navbar {
+  padding: 41px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar img {
+  width: 364.706px;
+  height: 62px;
+}
+
+/* -----------------Navbar End----------------- */
+
+/* banner start */
+.banner {
+  background-image: url("../images/banner-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  overflow: hidden;
+}
+.banner-content{
+  margin: 40px 0px 0px 0px;
+}
+.banner h2 {
+  color: #fff;
+  font-family: Arial;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner h1 {
+  color: #fff;
+  font-family: Arial;
+  font-size: 39.012px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #c8637d;
+  border-radius: 10px;
+  padding: 6px;
+  width: 80%;
+}
+.banner p {
+  color: #73ccf2;
+  font-family: Arial;
+  font-size: 20.489px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 70%;
+  z-index: 100;
+}
+.banner-img{
+  margin: -165px 0px 0px 0px;
+  position: relative;
+}
+
+.banner-left-img img{
+  min-width: 250px;
+}
+
+.banner-right-img img{
+  min-width: 230px;
+}
+/* banner close */
+
+/* -----------------Section Nine Start----------------- */
+.section-nine {
+  margin-top: 5rem;
+}
+
+.time-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  margin-bottom: 56px;
+  margin-top: 33px;
+}
+
+.time-content .colon {
+  margin-top: -2rem;
+}
+
+.time-content .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-content input {
+  border: none;
+  color: #fff;
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: 13px;
+  border-radius: 7.74px;
+  background: linear-gradient(180deg, #df8ca1 0%, #ecadbd 100%),
+    linear-gradient(195deg, #429dc3 -19.23%, #acd6e9 108.23%);
+  text-align: center;
+  width: 150px;
+  height: 90px;
+}
+
+.time-content label {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: var(--text-pink);
+  font-weight: 400;
+  margin-top: -0.3rem;
+}
+
+/* -----------------Section Nine End----------------- */
+
+/* -----------------About Section Start----------------- */
+
+.about-me {
+  margin-bottom: 76px;
+}
+
+.border {
+  width: 85%;
+  margin: 0 auto;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  padding-top: 38px;
+}
+
+.about-content .my-img {
+  width: 251px;
+  height: 251px;
+}
+
+.about-content .details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-content .details .name {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.about-content .details img {
+  width: 255.87px;
+  height: 107px;
+}
+
+.about-content .details .mail {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.about-content .details .social-icon {
+  display: flex;
+  gap: 25px;
+}
+
+.about-content .details .social-icon svg {
+  height: 42px;
+  width: 42px;
+}
+
+/* -----------------About Section End----------------- */
+
+/* -----------------Footer Start----------------- */
+.footer {
+  width: 100%;
+  background-color: var(--text-dark);
+  padding: 11px 0;
+}
+
+.footer .footer-logo {
+  width: 294.254px;
+  height: 58.413px;
+  margin: 0 auto;
+}
+
+/* -----------------Footer End----------------- */
+
+/* --------------------------------------------------- Email-2 Page Start ------------------------------------------- */
+
+/* ----------------- Email-2 Home Start----------------- */
+.hero-banner .left-star {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 68px;
+  height: 68px;
+}
+
+.hero-banner .right-star {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 196.77px;
+  height: 197.809px;
+}
+
+.hero-banner .left-star-down {
+  position: absolute;
+  left: 0;
+  width: 46px;
+  height: 46px;
+}
+
+.hero-banner .hero-heading h2 {
+  text-align: center;
+  font-family: var(--font-futura);
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-banner .hero-heading h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-two-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-two-bottom .hero-two-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-two-bottom .hero-two-left h5 {
+  padding-bottom: 6px;
+}
+
+.hero-two-bottom .hero-two-right {
+  margin-top: -3.5rem;
+  z-index: 2;
+}
+
+.hero-two-bottom .hero-two-right img {
+  width: 481.726px;
+  height: 565.262px;
+}
+
+/* ----------------- Email-2 Home End----------------- */
+
+/* ----------------- Email-2 Tips Section Start----------------- */
+.tips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  height: 752.595px;
+}
+
+.tips .tips-left img {
+  width: 420px;
+  height: 535px;
+  border-radius: 20px;
+}
+
+.tips .tips-right {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tips .tips-right .tips-item {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 16px;
+}
+
+/* ----------------- Email-2 Tips Section End----------------- */
+
+/* ----------------- Email-2 Service Section Start----------------- */
+.service-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.service-content .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.service-content .button .service-btn {
+  padding: 26px 90px;
+  border-radius: 20px;
+  background: #73ccf2;
+  border: none;
+  margin-top: 32px;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.service-content .content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.service-content .content-right .video-link img {
+  width: 338.731px;
+  height: 661px;
+}
+
+.service-content .content-right .video-icon {
+  position: absolute;
+}
+
+.service-content .content-right .video-icon img {
+  width: 98px;
+  height: 98px;
+}
+
+/* ----------------- Email-2 Service Section End----------------- */
+
+/* ----------------- Email-2 Service Items Start----------------- */
+.service-items {
+  margin-bottom: 50px;
+}
+
+.service-items .service-item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: start;
+  gap: 20px;
+}
+
+.service-items .service-item-list .service-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-left: 15%;
+}
+
+.service-items .service-item-list .service-list .blue-icon svg {
+  width: 40px;
+  height: 40px;
+  margin-top: -8px;
+}
+
+.service-items .service-img {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-items .service-img img {
+  width: 482px;
+  height: 333px;
+}
+
+/* ----------------- Email-2 Service Items End----------------- */
+
+/* ----------------- Email-2 Pink BOx Start----------------- */
+.section-pink-box .container {
+  margin-bottom: 42px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink-box {
+  background: #fcf1f6;
+  border-radius: 10px;
+  width: 807px;
+  height: 181px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2px;
+}
+
+.pink-box h3 {
+  line-height: normal;
+  font-family: Helvetica;
+}
+
+/* ----------------- Email-2 Pink BOx End----------------- */
+
+/* ----------------- Email-2 Review Section Start----------------- */
+.review-section {
+  margin-bottom: 76px;
+  width: 100%;
+}
+
+.review-section .review-content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 70px;
+}
+
+.review-section .review-content .review-left-side h4 {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+
+.review-section .review-content .review-left-side img {
+  width: 383px;
+  height: 350px;
+}
+
+.review-section .review-content .review-left-side .blue-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.review-section .review-content .review-left-side .blue-btn button {
+  width: 290px;
+  padding: 26px 40px;
+  border-radius: 20px;
+  background: #73ccf2;
+  color: white;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+}
+
+.review-section .review-content .review-right-side h4 {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+
+.review-section .review-content .review-right-side img {
+  width: 420px;
+  height: 338px;
+}
+
+.review-section .review-content .review-right-side .blue-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.review-section .review-content .review-right-side .blue-btn button {
+  width: 290px;
+  padding: 26px 40px;
+  padding: 26px 40px;
+  border-radius: 20px;
+  background: #73ccf2;
+  color: white;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+}
+
+.review-section .brand-logo-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-section .brand-logo-two img {
+  margin-top: 43px;
+  width: 314px;
+  height: 157px;
+}
+
+/* ----------------- Email-2  Review Section End----------------- */
+
+/* --------------------------------------------------- Email Three Page Start ------------------------------------------- */
+
+/* ------------------ Email-3  Hero Banner start ------------------ */
+.hero-banner-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 274px;
+  background-color: var(--blue-50);
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-banner-three .h-top {
+  color: var(--text-blue);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.hero-banner-three .h-bottom {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.hero-banner-three .left-star-down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ------------------ Email-3  Hero Banner End ------------------ */
+
+/* ------------------ Email-3  Hero Content start ------------------ */
+.home-three-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.home-three-content .left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 29px;
+  position: relative;
+}
+
+.home-three-content .left-content .part-one,
+.home-three-content .left-content .part-three,
+.home-three-content .left-content .part-four,
+.home-three-content .left-content .part-five {
+  padding-left: 53px;
+}
+
+.home-three-content .left-content .part-two {
+  height: 125px;
+  width: 666px;
+  background-color: var(--pink-50);
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.home-three-content .left-content .part-two img {
+  width: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-three-content .left-content .part-two h5 {
+  padding-left: 50px;
+}
+
+.home-three-content .left-content .part-five {
+  display: flex;
+}
+
+.home-three-content .left-content .part-five .left-to-right img {
+  width: 210.5px;
+  height: 55.593px;
+  margin-left: 8rem;
+  margin-top: -3.5rem;
+}
+
+.home-three-content .left-content .part-five .middle-img {
+  position: absolute;
+  right: -120px;
+  bottom: -9rem;
+  z-index: 10;
+}
+
+.home-three-content .left-content .part-five .middle-img img {
+  width: 336px;
+  height: 336px;
+}
+
+.home-three-content .right-content img {
+  width: 420px;
+  height: 614px;
+}
+
+/* ------------------ Email-3  Hero Content End ------------------ */
+
+/* ------------------ Email-3 2nd Section Start ------------------ */
+
+.section-two {
+  position: relative;
+}
+
+.section-two .before-after {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  padding: 115px 0;
+}
+
+.before-after .cross-icon-1 {
+  position: absolute;
+  top: 9rem;
+  left: 4rem;
+  width: 68.255px;
+  height: 68.255px;
+}
+
+.before-after .cross-icon-2 {
+  position: absolute;
+  top: 25rem;
+  left: 5rem;
+  width: 45.287px;
+  height: 45.287px;
+}
+
+.before-after .star-icon-1 {
+  position: absolute;
+  top: 25rem;
+  right: 0;
+  width: 196.77px;
+  height: 197.809px;
+}
+
+.before-after .before-after-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+
+.before-after .before-after-img .before-26,
+.before-after .before-after-img .after-37 {
+  width: 249.539px;
+  height: 628px;
+}
+
+/* ------------------ Email-3 2nd Sectiont End ------------------ */
+
+/* ------------------ Email-3 Third Section Start ------------------ */
+.process-list .process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  padding-top: 43px;
+}
+
+.process-list .process .process-left .process-list,
+.process-list .process .process-right .process-list {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 14px;
+}
+
+.process-list .process .process-left,
+.process-list .process .process-right {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.process-list .process .process-list img {
+  height: 50px;
+  width: 50px;
+  margin-top: -10px;
+}
+
+.process-list .logo-w-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 56px;
+}
+
+.process-list .logo-w-title .email-3-logo img {
+  width: 303px;
+  height: 151.5px;
+}
+
+/* ------------------ Email-3 Third Sectiont End ------------------ */
+
+/* ------------------ Email-3 Feedback Section Start ------------------ */
+
+.feedback {
+  margin-top: 56px;
+}
+
+.feedback-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feedback-content .feedback-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-left {
+  width: 600px;
+  height: 220px;
+  background-color: var(--pink-50);
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -10;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-right {
+  width: 621px;
+  height: 217px;
+  background-color: var(--pink-50);
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: -10;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-left img,
+.feedback-content .feedback-container .feedback-left .pinkbox-right img {
+  width: 85.498px;
+  height: 74.157px;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-left img {
+  position: absolute;
+  top: -2.2rem;
+}
+
+.feedback-content .feedback-container .feedback-left .pinkbox-right img {
+  position: absolute;
+  right: 3.5rem;
+  top: -2.2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-1 {
+  width: 278px;
+  height: 269.465px;
+  margin-left: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-2 {
+  width: 209.047px;
+  height: 377px;
+  margin-right: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-3 {
+  width: 271.134px;
+  height: 313.248px;
+  margin-left: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-4 {
+  width: 228.138px;
+  height: 286.06px;
+  margin-right: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-5 {
+  width: 261px;
+  height: 252.987px;
+  margin-left: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-6 {
+  width: 234.157px;
+  height: 325.416px;
+  margin-right: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-7 {
+  width: 310.351px;
+  height: 202.885px;
+  margin-left: -2rem;
+}
+
+.feedback-content .feedback-container .feedback-right .client-img-8 {
+  width: 247.277px;
+  height: 377px;
+  margin-right: -2rem;
+}
+
+/* ------------------ Email-3 Feedback Sectiont End ------------------ */
+
+/* ------------------ Email-3 Before-After Section Start ------------------ */
+
+/* -------- Before-After 1------- */
+
+.ba-1 {
+  width: 100%;
+  background: url(/assets/images/email-one/blue0bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-bottom: 26px;
+}
+
+.ba-1 .ba-1-content {
+  height: 542.595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ba-1 .ba-1-content .top-title,
+.ba-2 .ba-2-content .top-title,
+.ba-4 .ba-3-content .top-title,
+.ba-5 .ba-5-content .top-title,
+.ba-5 .ba-5-content .top-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.ba-1 .ba-1-content .ba-images,
+.ba-2 .ba-2-content .ba-images,
+.ba-3 .ba-3-content .ba-images,
+.ba-4 .ba-4-content .ba-images,
+.ba-5 .ba-5-content .ba-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ba-3 {
+  width: 100%;
+  background: url(/assets/images/email-three/pink-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: 36px;
+  position: relative;
+}
+
+.ba-3 .pink-star-1 {
+  position: absolute;
+  top: 5rem;
+}
+
+.ba-3 .pink-star-2 {
+  position: absolute;
+  top: 15rem;
+  left: 16rem;
+}
+
+.ba-3 .pink-star-3 {
+  width: 196.77px;
+  height: 197.809px;
+  position: absolute;
+  top: 20rem;
+  right: 0;
+}
+
+.ba-3 .ba-3-content {
+  height: 872.595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ba-5 {
+  width: 100%;
+  background: url(/assets/images/email-one/blue0bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-bottom: 26px;
+  margin-top: 36px;
+  position: relative;
+}
+
+.ba-5 .ba-5-content {
+  height: 702.595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ba-5 .blue-star-1 {
+  position: absolute;
+  top: 7rem;
+  right: 7rem;
+}
+
+.ba-5 .blue-star-2 {
+  position: absolute;
+  right: 9rem;
+  bottom: 16rem;
+}

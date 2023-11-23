@@ -1,0 +1,12 @@
+<svg width="94" height="67" viewBox="0 0 94 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 97">
+<path id="Polygon 2" d="M93.0154 32.7172C93.519 33.1176 93.519 33.8824 93.0154 34.2828L54.3499 65.0222C53.5841 65.6309 52.49 64.8915 52.7692 63.954L61.7533 33.7854C61.8088 33.5992 61.8088 33.4008 61.7533 33.2146L52.7692 3.04601C52.49 2.10845 53.5841 1.36905 54.3499 1.97783L93.0154 32.7172Z" fill="#DF8CA1"/>
+<rect id="Rectangle 1891" x="68.069" y="21.6768" width="23.6471" height="68.069" rx="2" transform="rotate(90 68.069 21.6768)" fill="url(#paint0_linear_616_952)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_616_952" x1="79.8925" y1="43.5561" x2="79.8925" y2="89.7457" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DF8CA1"/>
+<stop offset="1" stop-color="#429DC4"/>
+</linearGradient>
+</defs>
+</svg>

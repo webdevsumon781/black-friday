@@ -1,0 +1,27 @@
+<svg width="116" height="143" viewBox="0 0 116 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 8">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M87.568 190.277C67.7538 191.151 46.613 182.332 34.5921 166.556C23.2075 151.616 41.6549 127.263 37.3323 108.983C33.0649 90.9375 3.85657 78.5326 9.60789 60.9036C15.3323 43.3573 46.9618 49.4519 62.8323 40.0301C78.3181 30.8367 83.316 4.60933 101.224 6.51412C119.081 8.41347 127.669 28.8284 141.705 40.0301C156.357 51.7246 177.623 56.3504 185.17 73.5115C193.144 91.6419 191.539 114.09 181.882 131.383C172.643 147.929 151.777 152.06 135.702 162.098C119.537 172.192 106.608 189.438 87.568 190.277Z" fill="url(#paint0_linear_616_781)"/>
+<g id="Ellipse 1">
+<circle cx="24.3323" cy="111.483" r="8.5" fill="#D9D9D9"/>
+<circle cx="24.3323" cy="111.483" r="8.5" fill="url(#paint1_linear_616_781)"/>
+</g>
+<g id="Ellipse 2">
+<circle cx="58.3323" cy="32.4834" r="4.5" fill="#D9D9D9"/>
+<circle cx="58.3323" cy="32.4834" r="4.5" fill="url(#paint2_linear_616_781)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_616_781" x1="91.4565" y1="191" x2="105.146" y2="6.79211" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DF8CA1"/>
+<stop offset="1" stop-color="#ECADBD"/>
+</linearGradient>
+<linearGradient id="paint1_linear_616_781" x1="24.3323" y1="102.983" x2="24.3323" y2="119.983" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DF8CA1"/>
+<stop offset="1" stop-color="#ECADBD"/>
+</linearGradient>
+<linearGradient id="paint2_linear_616_781" x1="58.3323" y1="27.9834" x2="58.3323" y2="36.9834" gradientUnits="userSpaceOnUse">
+<stop stop-color="#DF8CA1"/>
+<stop offset="1" stop-color="#ECADBD"/>
+</linearGradient>
+</defs>
+</svg>
